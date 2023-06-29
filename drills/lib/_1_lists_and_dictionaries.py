@@ -92,6 +92,8 @@ def lowest_number(lst):
 # Example:
 #   Call:    highest_number([4, 6, 2])
 #   Returns: 6
+def highest_number(lst):
+    return max(lst)
 
 
 # Method name: the_beatles
