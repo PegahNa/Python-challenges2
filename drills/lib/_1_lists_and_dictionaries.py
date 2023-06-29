@@ -136,6 +136,8 @@ def we_joined_the_beatles(names):
 # Example:
 #   Call:    remove_nones_from_list([1, None, 2, None, 3])
 #   Returns: [1, 2, 3]
+def remove_nones_from_list(lst):
+    return [item for item in lst if item is not None]
 
 
 # Method name: double_list
