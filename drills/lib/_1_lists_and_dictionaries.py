@@ -146,6 +146,8 @@ def remove_nones_from_list(lst):
 # Example:
 #   Call:    double_list([1, 2, 3])
 #   Returns: [1, 2, 3, 1, 2, 3]
+def double_list(lst):
+    return lst + lst
 
 
 # Method name: unique_elements
