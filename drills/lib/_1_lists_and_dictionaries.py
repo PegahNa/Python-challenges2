@@ -62,6 +62,8 @@ def first_two_elements(lst):
 # Example:
 #   Call:    first_three_elements([1, 2, 3, 4])
 #   Returns: [1, 2, 3]
+def first_three_elements(lst):
+    return lst[0: 3]
 
 
 # Method name: total
