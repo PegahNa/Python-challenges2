@@ -156,6 +156,8 @@ def double_list(lst):
 # Example:
 #   Call:    unique_elements([1, 2, 1, 3, 2, 3])
 #   Returns: [1, 2, 3]
+def unique_elements(lst):
+    return list(set(lst))
 
 
 # Method name: add_to_list
