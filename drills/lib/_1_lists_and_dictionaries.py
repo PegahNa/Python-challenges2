@@ -22,6 +22,9 @@
 # Example:
 #   Call:    first_element([1, 2, 3])
 #   Returns: 1
+def first_element(list):
+    return list[0]
+
 
 
 
