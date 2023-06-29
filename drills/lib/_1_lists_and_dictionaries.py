@@ -52,6 +52,8 @@ def last_element(lst):
 # Example:
 #   Call:    first_two_elements([1, 2, 3])
 #   Returns: [1, 2]
+def first_two_elements(lst):
+    return lst[0: 2]
 
 
 # Method name: first_three_elements
