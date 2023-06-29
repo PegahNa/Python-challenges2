@@ -124,6 +124,10 @@ def i_joined_the_beatles(string):
 # Example:
 #   Call:    we_joined_the_beatles(['yoko', 'stuart'])
 #   Returns: ['john', 'paul', 'george', 'ringo', 'yoko', 'stuart']
+def we_joined_the_beatles(names):
+    lst = ['john', 'paul', 'george', 'ringo']
+    lst.extend(names)
+    return lst
 
 
 # Method name: remove_nones_from_list
