@@ -72,6 +72,8 @@ def first_three_elements(lst):
 # Example:
 #   Call:    total([1, 2, 3])
 #   Returns: 6
+def total(lst):
+    return sum(lst)
 
 
 # Method name: lowest_number
