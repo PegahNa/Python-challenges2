@@ -192,6 +192,8 @@ def new_band_member(new_dict):
 # Example:
 #   Call:    all_values({"a": 1, "b": 2, "c": 3})
 #   Returns: [1, 2, 3]
+def all_values(dic):
+    return list(dic.values())
 
 
 # Method name: all_keys
