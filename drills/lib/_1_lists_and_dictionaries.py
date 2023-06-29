@@ -112,6 +112,10 @@ def the_beatles():
 # Example:
 #   Call:    i_joined_the_beatles('yoko')
 #   Returns: ['john', 'paul', 'george', 'ringo', 'yoko']
+def i_joined_the_beatles(string):
+    lst = ['john', 'paul', 'george', 'ringo']
+    lst.append(string)
+    return lst
 
 
 # Method name: we_joined_the_beatles
