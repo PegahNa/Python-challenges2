@@ -102,6 +102,8 @@ def highest_number(lst):
 # Example:
 #   Call:    the_beatles()
 #   Returns: ['john', 'paul', 'george', 'ringo']
+def the_beatles():
+    return ['john', 'paul', 'george', 'ringo']
 
 
 # Method name: i_joined_the_beatles
