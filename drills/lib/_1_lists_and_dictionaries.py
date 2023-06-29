@@ -222,3 +222,5 @@ def remove_nones_from_dictionary(dic):
 # Example:
 #   Call:    touch_in('Aldgate East', '2022/01/30 17:12')
 #   Returns: {'entrypoint': 'Aldgate East', 'time': '2022/01/30 17:12'}
+def touch_in(key, value):
+    return {'entrypoint': key, 'time': value}
