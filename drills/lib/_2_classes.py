@@ -29,6 +29,7 @@ import datetime
 #
 # Example solution follows.
 
+
 class Greeter():
     def __init__(self, name):
         self.name = name
@@ -52,7 +53,9 @@ class Greeter():
 #   > animal = Animal()
 #   > animal
 #   <Animal object at 0x7f8b8c0b8e80>
-
+class Animal():
+    def __init__(self):
+        self.name = ""
 
 
 # Class name: Vehicle
@@ -65,7 +68,9 @@ class Greeter():
 #   > vehicle = Vehicle()
 #   > vehicle
 #   <Vehicle object at 0x7f8b8c0b8e80>
-
+class Vehicle():
+    def __init__(self):
+        self.name = ""
 
 
 # Class name: Cat
@@ -80,7 +85,12 @@ class Greeter():
 #   > cat = Cat()
 #   > cat.speak()
 #   'miaow'
+class Cat:
+    def __init__(self):
+        self.name = ""
 
+    def speak(self):
+        return "miaow"
 
 
 # Class name: Dog
@@ -95,7 +105,12 @@ class Greeter():
 #   > dog = Dog()
 #   > dog.speak()
 #   'woof'
+class Dog:
+    def __init__(self):
+        self.name = ""
 
+    def speak(self):
+        return "woof"
 
 
 # Class name: StringFormatter
@@ -115,8 +130,15 @@ class Greeter():
 #   'HELLO'
 #   > string_formatter.lower_case('HELLO')
 #   'hello'
+class StringFormatter:
+    def __init__(self):
+        self.name = ""
 
+    def block_caps(self, string):
+        return string.upper()
 
+    def lower_case(self, string):
+        return string.lower()
 
 # Class name: Calculator
 # Purpose: performs basic arithmetic
@@ -147,6 +169,22 @@ class Greeter():
 #   3.0
 
 
+class Calculator:
+    def __init__(self):
+        self.name = ""
+
+    def add(self, number1, number2):
+        return number1 + number2
+
+    def multiply(self, number1, number2):
+        return number1 * number2
+
+    def subtract(self, number1, number2):
+        return number1 - number2
+
+    def divide(self, number1, number2):
+        return number1 / number2
+
 
 # Class name: Apprentice
 # Purpose: represents an apprentice
@@ -171,7 +209,13 @@ class Greeter():
 #   'June 2030'
 #   > apprentice.format_details()
 #   'Rita Smith, June 2030'
+class Apprentice:
+    def __init__(self, name, cohort):
+        self.name = name
+        self.cohort = cohort
 
+    def format_details(self):
+        return f"{self.name}, {self.cohort}"
 
 
 # Class name: Cohort
@@ -204,6 +248,13 @@ class Greeter():
 #   datetime.date(2020, 9, 1)
 #   > cohort.calculate_duration()
 #   92
+class Cohort:
+    def __init__(self, name, start_date, end_date):
+        self.name = name
+        self.start_date = datetime.datetime.strptime(
+            start_date, '%Y-%m-%d').date()
+        self.end_date = datetime.datetime.strptime(end_date, '%Y-%m-%d').date()
 
-
-
+    def calculate_duration(self):
+        duration = self.end_date - self.start_date
+        return duration.days
