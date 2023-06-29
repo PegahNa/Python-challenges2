@@ -180,6 +180,10 @@ def add_to_list(lst, element):
 # Example:
 #   Call:    new_band_member({"bass": "flea"})
 #   Returns: {"vocalist": "miss piggy", "lead_guitar": "scooter", "bass": "flea"}
+def new_band_member(new_dict):
+    existing_dict = {'vocalist': 'miss piggy', 'lead_guitar': 'scooter'}
+    existing_dict.update(new_dict)
+    return existing_dict
 
 
 # Method name: all_values
