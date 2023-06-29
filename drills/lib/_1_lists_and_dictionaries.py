@@ -82,6 +82,8 @@ def total(lst):
 # Example:
 #   Call:    lowest_number([4, 2, 6])
 #   Returns: 2
+def lowest_number(lst):
+    return min(lst)
 
 
 # Method name: highest_number
