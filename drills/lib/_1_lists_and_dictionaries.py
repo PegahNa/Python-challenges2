@@ -202,6 +202,8 @@ def all_values(dic):
 # Example:
 #   Call:    all_keys({"a": 1, "b": 2, "c": 3})
 #   Returns: ["a", "b", "c"]
+def all_keys(dic):
+    return list(dic.keys())
 
 
 # Method name: remove_nones_from_dictionary
