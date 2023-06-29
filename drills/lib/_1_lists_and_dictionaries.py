@@ -212,6 +212,8 @@ def all_keys(dic):
 # Example:
 #   Call:    remove_nones_from_dictionary({"a": 1, "b": None, "c": 3})
 #   Returns: {"a": 1, "c": 3}
+def remove_nones_from_dictionary(dic):
+    return {key: value for key, value in dic.items() if value != None}
 
 
 # Method name: touch_in
