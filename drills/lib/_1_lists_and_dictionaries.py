@@ -22,10 +22,8 @@
 # Example:
 #   Call:    first_element([1, 2, 3])
 #   Returns: 1
-def first_element(list):
-    return list[0]
-
-
+def first_element(lst):
+    return lst[0]
 
 
 # Method name: second_element
@@ -34,7 +32,8 @@ def first_element(list):
 # Example:
 #   Call:    second_element([1, 2, 3])
 #   Returns: 2
-
+def second_element(lst):
+    return lst[1]
 
 
 # Method name: last_element
@@ -43,7 +42,8 @@ def first_element(list):
 # Example:
 #   Call:    last_element([1, 2, 3])
 #   Returns: 3
-
+def last_element(lst):
+    return lst[-1]
 
 
 # Method name: first_two_elements
@@ -54,14 +54,12 @@ def first_element(list):
 #   Returns: [1, 2]
 
 
-
 # Method name: first_three_elements
 # Purpose: returns the first three elements of the given list
 # Arguments: one list
 # Example:
 #   Call:    first_three_elements([1, 2, 3, 4])
 #   Returns: [1, 2, 3]
-
 
 
 # Method name: total
@@ -72,14 +70,12 @@ def first_element(list):
 #   Returns: 6
 
 
-
 # Method name: lowest_number
 # Purpose: returns the lowest number in the given list
 # Arguments: one list
 # Example:
 #   Call:    lowest_number([4, 2, 6])
 #   Returns: 2
-
 
 
 # Method name: highest_number
@@ -90,14 +86,12 @@ def first_element(list):
 #   Returns: 6
 
 
-
 # Method name: the_beatles
 # Purpose: returns the list ['john', 'paul', 'george', 'ringo']
 # Arguments: none
 # Example:
 #   Call:    the_beatles()
 #   Returns: ['john', 'paul', 'george', 'ringo']
-
 
 
 # Method name: i_joined_the_beatles
@@ -108,14 +102,12 @@ def first_element(list):
 #   Returns: ['john', 'paul', 'george', 'ringo', 'yoko']
 
 
-
 # Method name: we_joined_the_beatles
 # Purpose: adds the given names to the list ['john', 'paul', 'george', 'ringo']
 # Arguments: one list
 # Example:
 #   Call:    we_joined_the_beatles(['yoko', 'stuart'])
 #   Returns: ['john', 'paul', 'george', 'ringo', 'yoko', 'stuart']
-
 
 
 # Method name: remove_nones_from_list
@@ -126,14 +118,12 @@ def first_element(list):
 #   Returns: [1, 2, 3]
 
 
-
 # Method name: double_list
 # Purpose: returns a list with all the elements of the given list repeated twice
 # Arguments: one list
 # Example:
 #   Call:    double_list([1, 2, 3])
 #   Returns: [1, 2, 3, 1, 2, 3]
-
 
 
 # Method name: unique_elements
@@ -144,14 +134,12 @@ def first_element(list):
 #   Returns: [1, 2, 3]
 
 
-
 # Method name: add_to_list
 # Purpose: adds the given element to the given list
 # Arguments: one list and one element
 # Example:
 #   Call:    add_to_list(["a", "b", "c"], "d")
 #   Returns: ["a", "b", "c", "d"]
-
 
 
 # == DICTIONARY EXERCISES ==
@@ -165,14 +153,12 @@ def first_element(list):
 #   Returns: {"vocalist": "miss piggy", "lead_guitar": "scooter", "bass": "flea"}
 
 
-
 # Method name: all_values
 # Purpose: returns a list of all the values in the given dictionary
 # Arguments: one dictionary
 # Example:
 #   Call:    all_values({"a": 1, "b": 2, "c": 3})
 #   Returns: [1, 2, 3]
-
 
 
 # Method name: all_keys
@@ -183,7 +169,6 @@ def first_element(list):
 #   Returns: ["a", "b", "c"]
 
 
-
 # Method name: remove_nones_from_dictionary
 # Purpose: removes all pairs from a given dictionary where the value is None
 # Arguments: one dictionary
@@ -192,12 +177,9 @@ def first_element(list):
 #   Returns: {"a": 1, "c": 3}
 
 
-
-
 # Method name: touch_in
 # Purpose: creates a dictionary from a given tube station and time
 # Arguments: two strings, one for the tube station and one for the time
 # Example:
 #   Call:    touch_in('Aldgate East', '2022/01/30 17:12')
 #   Returns: {'entrypoint': 'Aldgate East', 'time': '2022/01/30 17:12'}
-
