@@ -166,6 +166,9 @@ def unique_elements(lst):
 # Example:
 #   Call:    add_to_list(["a", "b", "c"], "d")
 #   Returns: ["a", "b", "c", "d"]
+def add_to_list(lst, element):
+    lst.append(element)
+    return lst
 
 
 # == DICTIONARY EXERCISES ==
